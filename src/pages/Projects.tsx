@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import PageTransition from '@/components/layout/PageTransition';
-import ParticlesBackground from '@/components/effects/ParticlesBackground';
+import { Button } from '../components/ui/button';
+import { Card, CardContent } from '../components/ui/card';
+import PageTransition from '../components/layout/PageTransition';
+import ParticlesBackground from '../components/effects/ParticlesBackground';
 
 const projects = [
   {
@@ -114,10 +114,10 @@ export default function Projects() {
                     {/* Overlay buttons */}
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="flex gap-3">
-                        <Button size="sm" variant="outline" className="glass">
+                        <Button className="glass px-2 py-1" aria-label="Open external link">
                           <ExternalLink className="w-4 h-4" />
                         </Button>
-                        <Button size="sm" variant="outline" className="glass">
+                        <Button className="glass px-2 py-1" aria-label="Open Github">
                           <Github className="w-4 h-4" />
                         </Button>
                       </div>
@@ -145,7 +145,6 @@ export default function Projects() {
                     </div>
                     
                     <Button 
-                      variant="ghost" 
                       className="w-full group-hover:bg-gradient-primary group-hover:text-primary-foreground transition-all duration-300"
                     >
                       View Details
@@ -165,7 +164,6 @@ export default function Projects() {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             <Button 
-              size="lg"
               className="bg-gradient-primary hover:shadow-glow-primary transition-all duration-300 px-8 py-6 text-lg"
             >
               View All Projects

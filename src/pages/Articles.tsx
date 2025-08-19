@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { Calendar, ArrowRight, Clock } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import PageTransition from '@/components/layout/PageTransition';
-import ParticlesBackground from '@/components/effects/ParticlesBackground';
+import { Card, CardContent } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import PageTransition from '../components/layout/PageTransition';
+import ParticlesBackground from '../components/effects/ParticlesBackground';
 
 const articles = [
   {

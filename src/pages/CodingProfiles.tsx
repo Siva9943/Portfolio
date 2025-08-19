@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Trophy, Star, GitBranch } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import PageTransition from '@/components/layout/PageTransition';
-import ParticlesBackground from '@/components/effects/ParticlesBackground';
+import { ExternalLink, Trophy, Star } from "lucide-react";
+import { Card, CardContent } from "../components/ui/card";
+import { Button } from '../components/ui/button';
+import PageTransition from '../components/layout/PageTransition';
+import ParticlesBackground from '../components/effects/ParticlesBackground';
 
 const profiles = [
   {
@@ -190,7 +190,6 @@ export default function CodingProfiles() {
                       {/* Visit Profile Button */}
                       <Button
                         className="w-full group-hover:bg-gradient-primary group-hover:text-primary-foreground transition-all duration-300"
-                        variant="outline"
                         onClick={() => window.open(profile.url, '_blank')}
                       >
                         Visit Profile

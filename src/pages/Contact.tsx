@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Card, CardContent } from '@/components/ui/card';
-import PageTransition from '@/components/layout/PageTransition';
-import ParticlesBackground from '@/components/effects/ParticlesBackground';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Textarea } from '../components/ui/textarea';
+import { Card, CardContent } from '../components/ui/card';
+import PageTransition from '../components/layout/PageTransition';
+import ParticlesBackground from '../components/effects/ParticlesBackground';
 import { useState } from 'react';
 
 export default function Contact() {

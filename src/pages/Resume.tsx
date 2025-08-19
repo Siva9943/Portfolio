@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { Download, FileText, Eye, Award } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import PageTransition from '@/components/layout/PageTransition';
-import ParticlesBackground from '@/components/effects/ParticlesBackground';
+import { Button } from '../components/ui/button';
+import { Card, CardContent } from '../components/ui/card';
+import PageTransition from '../components/layout/PageTransition';
+import ParticlesBackground from '../components/effects/ParticlesBackground';
 
 export default function Resume() {
   return (
@@ -62,9 +62,9 @@ export default function Resume() {
                     Get the complete PDF version of my resume with all details, 
                     experience, and achievements.
                   </p>
-                  
-                  <Button 
-                    size="lg"
+
+                  <Button
+                   
                     className="w-full bg-gradient-primary hover:shadow-glow-primary transition-all duration-300"
                   >
                     <FileText className="w-5 h-5 mr-2" />

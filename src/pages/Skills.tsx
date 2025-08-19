@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Code, Database, Palette, Zap, Globe, Shield } from 'lucide-react';
-import PageTransition from '@/components/layout/PageTransition';
-import ParticlesBackground from '@/components/effects/ParticlesBackground';
+import PageTransition from '../components/layout/PageTransition';
+import ParticlesBackground from '../components/effects/ParticlesBackground';
 
 const skillCategories = [
   {

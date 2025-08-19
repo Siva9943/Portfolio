@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Download, Sparkles } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import ParticlesBackground from '@/components/effects/ParticlesBackground';
-import FloatingIcons from '@/components/effects/FloatingIcons';
-import PageTransition from '@/components/layout/PageTransition';
+import { Button } from '../components/ui/button';
+import ParticlesBackground from '../components/effects/ParticlesBackground';
+import FloatingIcons from '../components/effects/FloatingIcons';
+import PageTransition from '../components/layout/PageTransition';
 
 export default function Hero() {
   return (

@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { Sparkles, ArrowRight, Mail, Calendar } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import PageTransition from '@/components/layout/PageTransition';
-import ParticlesBackground from '@/components/effects/ParticlesBackground';
+import { Button } from '../components/ui/button';
+import PageTransition from '../components/layout/PageTransition';
+import ParticlesBackground from '../components/effects/ParticlesBackground';
 
 export default function CallToAction() {
   return (
